@@ -4,7 +4,7 @@
 #removes characters after the ":" must change to a .txt file!
 
 while IFS= read -r line; do
-    echo "$line" | sed 's/,.*//' pins.txt
+    echo "$line" | sed 's/,.*//' filename #change this!!!!
 
 
 done <pins.txt
