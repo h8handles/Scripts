@@ -1,3 +1,11 @@
+
+
+'''
+this script was made for my local lab to pull character names from a website and build a wordlist agains my LOTR themed lab
+
+
+'''
+
 import requests
 import re
 from bs4 import BeautifulSoup
